@@ -34,28 +34,9 @@ body {
         margin: 0;
       }
       
-      .footer li {
-        display: inline-block;
-        font-size: 30px; color: #0D1440;
-        padding: 3px;
-      }
-      .img1 { float:  display: block;
-        margin-left: 35%;
-        margin-right: 30%;
-        padding: 50px; raw ;}
-      .img2 { float:  : block;
-            margin-left: 60%;
-            margin-right: 20%;
-            padding: 50px; ;}
-      .img3 { float:  display: block;
-                margin-left: 50%;
-                margin-right: 20%;
-                padding: 50px;
-                display: table ;}
-      .img-soon {float: inline-start;}
-      .text {overflow: initial;}
-      .row ::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+.text {
+  float: left;
+}
+.imgfloat {
+  float: right;
+}
