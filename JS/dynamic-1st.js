@@ -29,9 +29,9 @@ popup()
 
 alert ("Welcome " + UserName + " to Stoneood \nThe world of art ");
 
-//function TextToUser(params) {
+//function TextToUser(params) {}
     
-}
+
 document.getElementById('ToUser').innerText ="Welcome " + UserName + " to Stoneood ";
 document.getElementById(`AboutColor`).innerText = "( " + color.toUpperCase() + " )"+ " is a soothing color that can invite harmony and diffuse anxiety. \n and helpful for stress management because it can encourage a powerful sense of calm.";
 // this one for replacing html command
