@@ -1,7 +1,7 @@
 body {
-    background-color: #1455D9 }
+    background-color: #0439D9 }
     .nav {
-        background-color: #BF1736;
+        background-color: #F20732 ;
         list-style-type: none;
         text-align: left; 
         padding: 0;
@@ -27,12 +27,28 @@ body {
     body,h2 {font-family: "Raleway", sans-serif }
 
     .footer {
-        background-color: #BF1736;
+      background-color: #F20732;
+      list-style-type: none;
+      text-align: left; 
+      padding: 0;
+      margin: 0;
+      }
+  #AboutColor {
+    background-color: whitesmoke;
         list-style-type: none;
         text-align: left; 
         padding: 0;
         margin: 0;
-      }
+
+  }
+  #ToUser {
+    background-color: whitesmoke;
+        list-style-type: none;
+        text-align: left; 
+        padding: 0;
+        margin: 0;
+
+  }
       
 .text {
   float: left;
