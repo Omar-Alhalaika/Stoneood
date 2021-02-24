@@ -4,11 +4,12 @@ confirm ("Are You ready to start \nan OUTSTANDING EXPERIENCE! ");
 var UserName= prompt("Kindly enter your name") ;
 var age= prompt("How old are you dear?");
 if (age>=18) {alert("welcome here");  
-}else alert("you need your parents to continue!");
+}
+else alert("you need your parents to continue!");
 
 var color = prompt("Can you give me one of the most \n Relaxing Colors! ");
 function popup() {
-    if (color.toLowerCase() == "blue"||color.toLowerCase() == "violet"||color.toLowerCase() == "purple"||color.toLowerCase() == "green") {
+    if (color.toLowerCase() == "blue"||color.toLowerCase() == "violet"||color.toLowerCase() == "purple"||color.toLowerCase() == "green") 
         alert("Great job! \n " + color + " is one of the most relaxing colors")
         
     } else { alert("Try again \nyou may think about sky, grass ..!")
@@ -18,7 +19,7 @@ function popup() {
 popup()
 };
     
-}
+
 console.log(color)
 
 popup()
