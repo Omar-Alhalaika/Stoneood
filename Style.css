@@ -49,6 +49,13 @@ body {
         margin: 0;
 
   }
+  #imgForUser {
+    background-color: whitesmoke;
+        list-style-type: none;
+        text-align: left; 
+        padding: 0;
+        margin: 0;
+  }
       
 .text {
   float: left;
