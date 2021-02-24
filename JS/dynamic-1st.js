@@ -10,11 +10,7 @@ else alert("you need your parents to continue!");
 var color = prompt("Can you give me one of the most \n Relaxing Colors! ");
 function popup() {
     if (color.toLowerCase() == "blue"||color.toLowerCase() == "violet"||color.toLowerCase() == "purple"||color.toLowerCase() == "green") 
-<<<<<<< HEAD
        { alert("Great job! \n " + color + " is one of the most relaxing colors");
-=======
-        alert("Great job! \n " + color + " is one of the most relaxing colors")
->>>>>>> 971739ce7a8e0b571ba54f4516906ec609c6a6ba
         
     } else { alert("Try again \nyou may think about sky, grass ..!");
     //color = '';
@@ -23,12 +19,6 @@ function popup() {
 popup()
     }
 };
-<<<<<<< HEAD
-=======
-    
-
-console.log(color)
->>>>>>> 971739ce7a8e0b571ba54f4516906ec609c6a6ba
 
 
 
@@ -41,7 +31,6 @@ popup();
 
 alert ("Welcome " + UserName + " to Stoneood \nThe world of art ");
 
-<<<<<<< HEAD
 var i= prompt("chose from (1) to (3) to show you some of our art");
 
 function TextToUser(params) {
@@ -72,10 +61,6 @@ var counter=i;
    //document.getElementById(`imgForUser`).innerHTML = <img src="https://i.ibb.co/7KMXgdM/Omar-Alhalaika-1.jpg" width=20% height=20% alt="">
 
 
-=======
-//function TextToUser(params) {}
-    
->>>>>>> 971739ce7a8e0b571ba54f4516906ec609c6a6ba
 
 document.getElementById('ToUser').innerText ="Welcome " + UserName + " to Stoneood ";
 document.getElementById(`AboutColor`).innerText = "( " + color.toUpperCase() + " )"+ " it is a very soothing color that can invite harmony and diffuse anxiety. \n and helpful for stress management because, it can encourage a powerful sense of calm.";
@@ -85,3 +70,4 @@ document.getElementById(`AboutColor`).innerText = "( " + color.toUpperCase() + "
 
 
 //document.getElementById('').style.background = "red";
+//test
